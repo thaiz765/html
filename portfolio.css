@@ -4,8 +4,36 @@
 
 .contact {
     background-color: blueviolet;
+    text-align: center;
 }
 
 #project-layout {
     background-color: darkmagenta;
+    letter-spacing: 2px;
+}
+
+.Education {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    
+}
+
+.head {
+    font-size: 25px;
+    color: rgb(35, 16, 122);
+}
+.skills-layout {
+    font-weight: 50px;
+    font-variant: small-caps;
+}
+.stack-layout {
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+.About-text {
+   text-indent:  20px;
+}
+
+.footer {
+    background-color: rgb(221, 36, 150);
 }
