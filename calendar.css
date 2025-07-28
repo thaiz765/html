@@ -1,0 +1,26 @@
+
+
+h2 {
+    text-align: center;
+    color: rgb(173, 32, 149);
+}
+
+table {
+    border: 2px solid black;
+    text-align: center; 
+    width: 800px;
+    border-collapse: collapse;
+    position: absolute;
+    left: 350px;
+}
+
+th,td {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+th {
+    background-color: blueviolet;
+    color: white;
+}
+
