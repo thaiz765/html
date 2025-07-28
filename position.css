@@ -1,0 +1,13 @@
+body {
+ height: 2000px;
+}
+
+
+.absolute {
+    position:sticky ;
+    background-color: rgb(255, 0, 136);
+    top: 0;
+    right: 0;
+    height: 500px;
+    width: 600px;
+}
