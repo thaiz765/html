@@ -81,3 +81,28 @@ body {
     color: #ffff;
     font-weight: 100px;
 }
+@media (min-width:580px) and (max-width:700px) {
+    body {
+        background-color: darkkhaki;
+       }
+
+    .header {
+        
+        text-align: center;
+        padding: 10px;
+    }
+    
+    .blog-post {
+        padding: 10px;
+    }
+}
+
+@media (orientation:portrait) {
+    body {
+        background-color: blue;
+    }
+    .blog-post {
+        padding: 10px;
+    }
+
+}
