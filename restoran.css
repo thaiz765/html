@@ -1,0 +1,101 @@
+ * {
+    margin: 0;
+    padding: 0;
+ }
+
+ body {
+    background-image: url('restaurant\ background.jpg');
+    background-size: cover;
+  
+ }
+
+.container {
+    background-color: rgba(3, 3, 37, 0.618);
+    width: 100%;
+    height: 100vh;
+    
+}
+ 
+ nav {
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-between;
+    margin: 20px;  
+}
+.navbar {
+    border: 1pxsolid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 16px;
+    
+
+}
+.logo {
+    font-weight: bold;
+    color: orange;
+    font-size: 25px;
+}
+
+ul.nav-links {
+    display: flex;
+    align-items: center;
+    padding-left: 1100px;
+   
+    gap: 1rem;
+    list-style-type: none;
+}
+
+
+ul.nav-links li a{
+    text-decoration: none;
+    color: white;
+}
+
+ul.nav-links li a:hover {
+    color: orange;
+}
+
+.main {
+    margin-top: 150px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.leftsection {
+    color: white;
+    width: 45%;
+    margin-right: 0;
+    margin-left: 40px;
+}
+
+.leftsection .texthead {
+    margin-bottom: 20px;
+    font-size: 45px; 
+}
+.leftsection .textpara {
+    margin-bottom: 24px;
+}
+
+.textbutton {
+    background-color: orange;
+    font-size: 1rem;
+    padding: 8px 30px;
+    color: white;
+}
+
+.rightsection {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+.rightsection img {
+    width: 400px;
+    max-width: 100%;
+    border-radius: 20px;
+}
+}
+
