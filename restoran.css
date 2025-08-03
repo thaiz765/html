@@ -85,6 +85,7 @@ ul.nav-links li a:hover {
     font-size: 1rem;
     padding: 8px 30px;
     color: white;
+    font-weight: bold;
 }
 
 .rightsection {
@@ -92,10 +93,20 @@ ul.nav-links li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+}
 .rightsection img {
     width: 400px;
-    max-width: 100%;
-    border-radius: 20px;
+    border-radius: 50%;
+    animation: rotate180 1.5s linear infinite;
 }
+
+@keyframes rotate180 {
+    0% {
+        transform: rotateZ(0deg);
+    }
+    100% {
+        transform: rotatez(180deg);
+    }
 }
+
 
