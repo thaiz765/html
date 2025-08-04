@@ -98,6 +98,13 @@ ul.nav-links li a:hover {
     width: 400px;
     border-radius: 50%;
     animation: rotate180 1.5s linear infinite;
+    transition: 1s ease-in-out;
+    animation-play-state: paused;
+}
+
+.rightsection img:hover {
+    animation-play-state: running;
+  
 }
 
 @keyframes rotate180 {
